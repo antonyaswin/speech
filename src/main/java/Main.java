@@ -22,6 +22,7 @@ import net.sourceforge.javaflacencoder.FLACFileWriter;
 public class Main extends Canvas
 {
 
+
     public void paint(Graphics g) {
 
         Toolkit t=Toolkit.getDefaultToolkit();
@@ -48,7 +49,7 @@ public class Main extends Canvas
 
         try {
             duplex.recognize(mic.getTargetDataLine(), mic.getAudioFormat());
-            brain.speak("Hello  sir !! KEVINN  at your service");
+            //brain.speak("Hello  sir !! KEVINN  at your service");
         } catch (LineUnavailableException e) {
             e.printStackTrace();
         }
